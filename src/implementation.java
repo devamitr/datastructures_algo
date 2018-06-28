@@ -1,6 +1,6 @@
 public class implementation {
     public static void main(String args[]) {
-
+        linked_list_implementation();
     }
 
     public static void linked_list_implementation(){
@@ -16,5 +16,11 @@ public class implementation {
         LinkedList1.print_linked_list();
         LinkedList1.delete_node(4);
         LinkedList1.print_linked_list();
+        LinkedList1.reverse_linked_list();
+        LinkedList1.print_linked_list();
+        LinkedList1.swap_nodes(6,10);
+        LinkedList1.print_linked_list();
     }
+
+
 }
