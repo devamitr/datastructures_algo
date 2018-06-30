@@ -19,20 +19,23 @@ public class implementation {
         {
             LinkedList2.add_node_end(inp_arr2[i]);
         }
-        LinkedList1.add_node_start(10);
-        LinkedList1.add_node_at_index(20,3);
-        LinkedList1.print_linked_list();
-        LinkedList1.delete_node(4);
-        LinkedList1.print_linked_list();
-        LinkedList1.reverse_linked_list();
-        LinkedList1.print_linked_list();
-        LinkedList1.swap_nodes(6,10);
-        LinkedList1.print_linked_list();
-        LinkedList2.print_linked_list();
+//        LinkedList1.add_node_start(10);
+//        LinkedList1.add_node_at_index(20,3);
+//        LinkedList1.print_linked_list();
+//        LinkedList1.delete_node(4);
+//        LinkedList1.print_linked_list();
+//        LinkedList1.reverse_linked_list();
+//        LinkedList1.print_linked_list();
+//        LinkedList1.swap_nodes(6,10);
+//        LinkedList1.print_linked_list();
+//        LinkedList2.print_linked_list();
+//
+//        LinkedListt res = new LinkedListt();
+//        res.head = LinkedListt.merge_sorted_linkedlist(LinkedList1.head, LinkedList2.head);
+//        res.print_linked_list();
 
-        LinkedListt res = new LinkedListt();
-        res.head = LinkedList1.merge_sorted_linkedlist(LinkedList1.head, LinkedList2.head);
-        res.print_linked_list();
+        LinkedListt.pairwise_swap(LinkedList1.head);
+        LinkedList1.print_linked_list();
     }
 
 

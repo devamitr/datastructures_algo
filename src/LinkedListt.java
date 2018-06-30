@@ -140,7 +140,7 @@ public class LinkedListt {
 
     }
 
-    public LinkedListNode merge_sorted_linkedlist(LinkedListNode ll1, LinkedListNode ll2)
+    public static LinkedListNode merge_sorted_linkedlist(LinkedListNode ll1, LinkedListNode ll2)
     {
         LinkedListNode res = null;
         if(ll1 == null)
@@ -156,5 +156,21 @@ public class LinkedListt {
             res.next = merge_sorted_linkedlist(ll1, ll2.next);
         }
         return res;
+    }
+
+    public static void pairwise_swap(LinkedListNode head)
+    {
+        LinkedListNode cursor = head;
+        while(cursor!=null && cursor.next!=null)
+        {
+            swap(cursor, cursor.next);
+            cursor = cursor.next.next;
+        }
+    }
+
+    private static void swap(LinkedListNode a, LinkedListNode b){
+        int temp = a.data;
+        a.data = b.data;
+        b.data = temp;
     }
 }
