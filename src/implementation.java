@@ -1,7 +1,7 @@
 public class implementation {
     public static void main(String args[]) {
 //        linked_list_implementation();
-        sorting_implementation();
+        stack_implementation();
     }
 
     public static void linked_list_implementation(){
@@ -46,11 +46,23 @@ public class implementation {
         MergeSortt.sort(list, 0, list.length-1);
         print_int_list(list);
     }
-    public static void print_int_list(int[] list)
-    {
+    public static void print_int_list(int[] list) {
         System.out.println("*********************");
         for (int i=0; i<list.length;i++){
             System.out.println(list[i]);
         }
+    }
+
+    public static void stack_implementation(){
+        int[] list = {10,80, 90};
+        Stackk st1 = new Stackk();
+        for(int i=0; i<list.length;i++){
+            st1.push(list[i]);
+        }
+        st1.print();
+        System.out.println(st1.pop());
+        System.out.println(st1.pop());
+        System.out.println(st1.pop());
+        System.out.println(st1.pop());
     }
 }
