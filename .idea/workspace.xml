@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8280f5bb-7ded-4464-bcf8-c98bf22c3ce7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DoubleLinkedListt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queuee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stackk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Circular_Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack2_1array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithms/implementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndAlgorithms/implementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queuee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queuee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stackk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stackk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,47 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="implementation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="implementation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/implementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="254">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
               <folding>
                 <element signature="method#linked_list_implementation#0;class#implementation#0" />
                 <element signature="method#sorting_implementation#0;class#implementation#0" />
                 <element signature="method#print_int_list#0;class#implementation#0" />
+                <element signature="method#stack_implementation#0;class#implementation#0" />
+                <element signature="method#queue_implementation#0;class#implementation#0" />
+                <element signature="method#two_stack_one_array_implementation#0;class#implementation#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickSortt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuickSortt.java">
+      <file leaf-file-name="Circular_Queue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Circular_Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stackk.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Stackk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-              <folding>
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Queuee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Queuee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            <state relative-caret-position="65">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -95,16 +77,17 @@
         <option value="$PROJECT_DIR$/src/MergeSortt.java" />
         <option value="$PROJECT_DIR$/src/DoubleLinkedListt.java" />
         <option value="$PROJECT_DIR$/src/Queuee.java" />
-        <option value="$PROJECT_DIR$/src/implementation.java" />
         <option value="$PROJECT_DIR$/src/Stackk.java" />
+        <option value="$PROJECT_DIR$/src/Stack2_1array.java" />
+        <option value="$PROJECT_DIR$/src/implementation.java" />
+        <option value="$PROJECT_DIR$/src/Circular_Queue.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
-    <option name="width" value="1890" />
-    <option name="height" value="930" />
+    <option name="x" value="949" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -113,8 +96,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +115,9 @@
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530401940284</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Stack and Queue">
+      <created>1530419110196</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530419110196</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -253,17 +246,17 @@
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5003903" side_tool="true" weight="0.3298969" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49960968" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49960968" weight="0.3298791" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980484" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24980484" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.39862543" />
+      <window_info active="true" anchor="bottom" id="Debug" order="6" visible="true" weight="0.39723662" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32943013" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -284,14 +277,15 @@
     <MESSAGE value="Merged two sorted Linkedlists" />
     <MESSAGE value="Pairwise Linkedlist Swapping" />
     <MESSAGE value="SOrting Algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="SOrting Algorithms" />
+    <MESSAGE value="Stack and Queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack and Queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/implementation.java</url>
-          <line>45</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -307,12 +301,55 @@
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stackk.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Circular_Queue.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implementation.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="38" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>i = (i+1)%MAX</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(i+1)%MAX</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i+1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cq1.arr</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>peek_min()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>H</expression-string>
         <language-id>JAVA</language-id>
@@ -333,19 +370,45 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>ll1.data</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>head.data</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/implementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="method#linked_list_implementation#0;class#implementation#0" />
+            <element signature="method#sorting_implementation#0;class#implementation#0" />
+            <element signature="method#print_int_list#0;class#implementation#0" />
+            <element signature="method#stack_implementation#0;class#implementation#0" />
+            <element signature="method#queue_implementation#0;class#implementation#0" />
+            <element signature="method#two_stack_one_array_implementation#0;class#implementation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuickSortt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queuee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stackk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedListt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2754">
@@ -364,6 +427,9 @@
             <element signature="method#linked_list_implementation#0;class#implementation#0" />
             <element signature="method#sorting_implementation#0;class#implementation#0" />
             <element signature="method#print_int_list#0;class#implementation#0" />
+            <element signature="method#stack_implementation#0;class#implementation#0" />
+            <element signature="method#queue_implementation#0;class#implementation#0" />
+            <element signature="method#two_stack_one_array_implementation#0;class#implementation#0" />
           </folding>
         </state>
       </provider>
@@ -386,6 +452,9 @@
             <element signature="method#linked_list_implementation#0;class#implementation#0" />
             <element signature="method#sorting_implementation#0;class#implementation#0" />
             <element signature="method#print_int_list#0;class#implementation#0" />
+            <element signature="method#stack_implementation#0;class#implementation#0" />
+            <element signature="method#queue_implementation#0;class#implementation#0" />
+            <element signature="method#two_stack_one_array_implementation#0;class#implementation#0" />
           </folding>
         </state>
       </provider>
@@ -411,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Queuee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedListt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2380">
@@ -428,25 +490,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stackk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queuee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack2_1array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Circular_Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/implementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="254">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
           <folding>
             <element signature="method#linked_list_implementation#0;class#implementation#0" />
             <element signature="method#sorting_implementation#0;class#implementation#0" />
             <element signature="method#print_int_list#0;class#implementation#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stackk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
+            <element signature="method#stack_implementation#0;class#implementation#0" />
+            <element signature="method#queue_implementation#0;class#implementation#0" />
+            <element signature="method#two_stack_one_array_implementation#0;class#implementation#0" />
           </folding>
         </state>
       </provider>

@@ -1,7 +1,8 @@
 public class implementation {
     public static void main(String args[]) {
 //        linked_list_implementation();
-        stack_implementation();
+        // stack_implementation();
+        implement_circular_queue();
     }
 
     public static void linked_list_implementation(){
@@ -54,15 +55,70 @@ public class implementation {
     }
 
     public static void stack_implementation(){
-        int[] list = {10,80, 90};
+        int[] list = {16,15,29,19,18};
         Stackk st1 = new Stackk();
         for(int i=0; i<list.length;i++){
             st1.push(list[i]);
         }
         st1.print();
+        st1.print_min_stack();
+        System.out.println(st1.pop());
+        st1.print_min_stack();
         System.out.println(st1.pop());
         System.out.println(st1.pop());
         System.out.println(st1.pop());
-        System.out.println(st1.pop());
+        st1.print_min_stack();
+    }
+
+    public static void queue_implementation(){
+        Queuee q1 = new Queuee();
+        int[] list = {10,80, 90, 30, 40, 50, 70};
+        for(int i=0; i<list.length;i++){
+            q1.enqueue(list[i]);
+        }
+        q1.print();
+        System.out.println("top element:" + q1.peek());
+        q1.print();
+        System.out.println("Deque element:" + q1.dequeue());
+        q1.print();
+    }
+
+    public static void two_stack_one_array_implementation(){
+        Stack2_1array dual_stack = new Stack2_1array();
+        int[] list1 = {16,15,29,19,18};
+        int[] list2 = {10,12,18,21,38,42,55};
+        for(int i=0; i<list1.length;i++){
+            dual_stack.push1(list1[i]);
+        }
+        for(int i=0; i<list2.length;i++){
+            dual_stack.push2(list2[i]);
+        }
+        System.out.println("Stack1");
+        dual_stack.print1();
+        System.out.println("Stack2");
+        dual_stack.print2();
+
+        System.out.println("Stack1 pop:" + dual_stack.pop1());
+
+        System.out.println("Stack2 pop:" + dual_stack.pop2());
+
+    }
+
+    public static void implement_circular_queue(){
+        Circular_Queue cq1 = new Circular_Queue();
+        int[] list = {16,15,29,19,18,21,22};
+        for(int i=0; i<list.length;i++){
+            cq1.enqueue(list[i]);
+        }
+        cq1.print_queue();
+        System.out.println("dequeue:" + cq1.dequeue());
+        System.out.println("dequeue:" + cq1.dequeue());
+        System.out.println("dequeue:" + cq1.dequeue());
+        cq1.print_queue();
+        cq1.enqueue(99);
+        cq1.enqueue(98);
+        cq1.enqueue(97);
+        cq1.enqueue(96);
+        cq1.print_queue();
     }
 }
